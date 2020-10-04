@@ -1,13 +1,15 @@
 var mysql = require('mysql');
 const config = require("./config.json");
 
-var con = mysql.createConnection({
+var connection = mysql.createConnection({
   host: config.host,
   user: config.username,
-  password:config.password 
+  password: config.password
 });
 
-con.connect(function(err) {
+connection.connect(function (err) {
   if (err) throw err;
   console.log("Connected!");
 });
+
+exports.connection = connection;
