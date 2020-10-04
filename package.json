@@ -1,1 +1,19 @@
-Test File
+{
+  "name": "hacktoberfest2020-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrHassanTariq/Hacktoberfest2020-Repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrHassanTariq/Hacktoberfest2020-Repo/issues"
+  },
+  "homepage": "https://github.com/MrHassanTariq/Hacktoberfest2020-Repo#readme"
+}
